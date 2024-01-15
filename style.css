@@ -14,7 +14,6 @@
 /* Header */
 .topHeader {
   background: linear-gradient(#333, #f5f5f5);
-  color: color-mix(in srgb-linear, black 70%, gold 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +23,11 @@
   font-size: 6rem;
   font-weight: bold;
   line-height: 0.8;
+}
+.topHeader p {
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+  color: color-mix(in srgb-linear, black 30%, gold 100%)
 }
 
 /* Navigation Bar */

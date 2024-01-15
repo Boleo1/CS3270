@@ -27,10 +27,10 @@ nobody is ever going to pull you out of bed in the morning and make the decision
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo($name) ?> | About</title>
+  <title><?php echo($name) ?> | About Me</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<header class="topHeader"><?php echo($name) ?>'s<br>About Me</header>
+<header class="topHeader"><p><?php echo($name) ?>'s<br>about me</p></header>
 <nav class="topNav">
       <ul class="navList">
         <li class="navItems"><a href="index.php">Home</a></li>
