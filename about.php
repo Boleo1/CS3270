@@ -45,10 +45,21 @@ nobody is ever going to pull you out of bed in the morning and make the decision
       <h2 class="articleH2"><?php echo($interest_q) ?></h2>
       <p class="articleP"><?php echo($interest_a) ?></p>
     </article>
-    <article class="articleBody">
+    <article class="altArticleBody">
       <h2 class="articleH2"><?php echo($after_q) ?></h2>
       <p class="articleP"><?php echo($after_ans) ?></p>
     </article>
   </main>
 </body>
+<footer class="footer">
+  <nav class="footerNav">
+    <ul class="footerList">
+      <li class="footerLinks"><a href="index.php">Home</a></li>
+      <li class="footerLinks"><a href="about.php">About</a></li>
+      <li class="footerLinks"><a href="assignments.php">Assignments</a></li>
+      <li class="footerLinks"><a href="https://github.com/boleo1">Github</a></li>
+    </ul>
+  </nav>
+  <p class="footerCopyright"><a href="https://github.com/boleo1">&copy; Anthony Beaulieu</a>
+</footer>
 </html>

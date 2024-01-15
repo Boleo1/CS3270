@@ -22,7 +22,7 @@ steps to do to ensure that the data being processed on the backend cannot be man
   <title><?php echo($name) ?> | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<header class="topHeader"><?php echo($name) ?>'s<br>homework</header>
+<header class="topHeader"><?php echo($name) ?>'s<br>homepage</header>
 <nav class="topNav">
       <ul class="navList">
         <li class="navItems"><a href="index.php">Home</a></li>
@@ -36,9 +36,22 @@ steps to do to ensure that the data being processed on the backend cannot be man
     <article class="articleBody">
       <h2 class="articleH2"><?php echo($questionOne) ?></h2>
       <p class="articleP"><?php echo($answerOne) ?></p>
+    </article>
+    <article class="altArticleBody">
       <h2 class="articleH2"><?php echo($questionTwo) ?></h2>
       <p class="articleP"><?php echo($answerTwo) ?></p>
     </article>
   </main>
 </body>
+<footer class="footer">
+  <nav class="footerNav">
+    <ul class="footerList">
+      <li class="footerLinks"><a href="index.php">Home</a></li>
+      <li class="footerLinks"><a href="about.php">About</a></li>
+      <li class="footerLinks"><a href="assignments.php">Assignments</a></li>
+      <li class="footerLinks"><a href="https://github.com/boleo1">Github</a></li>
+    </ul>
+  </nav>
+  <p class="footerCopyright"><a href="https://github.com/boleo1">&copy; Anthony Beaulieu</a>
+</footer>
 </html>
