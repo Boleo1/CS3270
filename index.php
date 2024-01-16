@@ -22,7 +22,10 @@ steps to do to ensure that the data being processed on the backend cannot be man
   <title><?php echo($name) ?> | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<header class="topHeader"><p><?php echo($name) ?>'s<br>homepage</p></header>
+<header class="topHeader">
+<img class="headerImg" src="images/header.jpg" alt="header image of myself">
+  <p><?php echo($name) ?>'s<br>homepage</p>
+</header>
 <nav class="topNav">
       <ul class="navList">
         <li class="navItems"><a href="index.php">Home</a></li>

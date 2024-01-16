@@ -15,25 +15,40 @@
 .topHeader {
   background: linear-gradient(#333, #f5f5f5);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   height: 220px;
   width: auto;
+}
+.topHeader p {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   text-transform: uppercase;
   font-size: 6rem;
   font-weight: bold;
   line-height: 0.8;
-}
-.topHeader p {
-  text-align: center;
   -webkit-text-stroke: 1px black;
-  color: color-mix(in srgb-linear, black 30%, gold 100%)
+  color: color-mix(in srgb-linear, black 30%, gold 100%);
+  padding-right: 10%;
+}
+.headerImg {
+  display: flex;
+  margin: 5px;
+  justify-content: flex-start;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
 }
 
 /* Navigation Bar */
 .topNav {
   display: flex;
   align-items: center;
+  padding-top: 15px;
   padding-bottom: 30px;
 }
 .navList {
