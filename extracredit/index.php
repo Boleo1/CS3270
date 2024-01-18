@@ -16,7 +16,7 @@
 </head>
 <header class="header">Simple PHP form demo</header>
 <body>
-  <form class="form" action=<?php echo abs_path , 'calculated.php'?> method="get" >
+  <form class="form" action="calculated.php" method="get" >
     <label for="sales">Username: <input type="text" name="USERNAME" id="sales"></label><br>
     <label for="sales">Sales: <input type="text" name="sales" id="sales"></label><br>
     <label for="rent">Rent: <input type="text" name="rent" id="rent"></label><br>
