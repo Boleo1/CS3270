@@ -47,7 +47,7 @@ steps to do to ensure that the data being processed on the backend cannot be man
     <article class="articleBodyXC">
       <h3 class="articleH3">Extra Credit / Extras (click on links)</h3>
     <p class ="extracreditLink"><a href="https://cs.bemidjistate.edu/vs5942cv/Hangman/hangman.htm">Hangman game!</a></p>
-    <p class ="extracreditLink"><a href="/extracredit/index.php">Extra Credit: Simple php form demo</a></p>
+    <p class ="extracreditLink"><a href="extracredit/index.php">Extra Credit: Simple php form demo</a></p>
     </article>
   </main>
 </body>
