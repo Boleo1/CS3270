@@ -1,6 +1,6 @@
 <?php
   define('PAGE_NAME', "Budgeting");
-  // define('abs_path', "extracredit/");
+  define('abs_path', "vs5942cv/CS3270/extracredit/");
   extract($_REQUEST);
   $totalNeg = $supplies + $rent;
   $totalPos = $salaries + $sales;
