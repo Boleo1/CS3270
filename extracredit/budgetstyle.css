@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(purple, blue);
+  height: 100px;
+
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blue;
+  color: #f5f5f5;
+}
+.form label {
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#submit{
+  width: 100px;
+  height: 25px;
+  background-color: black;
+  border-radius: 10px;
+  color: gold;
+}
+.calculatedP {
+  background-color: #f5f5f5;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.phpEcho {
+  font-weight: bold;
+}
+.bottomNav {
+  background-color: #f5f5f5;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+.bottomNav li {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.bottomNav a{
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  padding: 10px 5px;
+  background-color: #001da0;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.bottomNav a:hover {
+  background-color: #021980;
+  transition: 0.3s;
+}

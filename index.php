@@ -44,8 +44,10 @@ steps to do to ensure that the data being processed on the backend cannot be man
       <h2 class="articleH2"><?php echo($questionTwo) ?></h2>
       <p class="articleP"><?php echo($answerTwo) ?></p>
     </article>
-    <article class="articleBody">
-    <h3 class ="hangmanLink"><a href="https://cs.bemidjistate.edu/vs5942cv/Hangman/hangman.htm">Hangman game! (click to play)</a></h3>
+    <article class="articleBodyXC">
+      <h3 class="articleH3">Extra Credit / Extras (click on links)</h3>
+    <p class ="extracreditLink"><a href="https://cs.bemidjistate.edu/vs5942cv/Hangman/hangman.htm">Hangman game!</a></p>
+    <p class ="extracreditLink"><a href="/CS3270/extracredit/index.php">Extra Credit: Simple php form demo</a></p>
     </article>
   </main>
 </body>

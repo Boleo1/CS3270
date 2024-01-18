@@ -130,7 +130,31 @@
   color: gold;
 }
 
-.hangmanLink a {
+.articleBodyXC{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.articleH3 {
+  padding: 10px;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.extracreditLink {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.extracreditLink a {
+  padding: 10px;
+  background-color: purple;
+  font-size: 1.2rem;
   text-decoration: none;
-  
+  color: #f5f5f5;
+  border-radius: 15px;
+  border: 1px black solid;
+}
+.extracreditLink a:hover {
+  transition: 0.3s;
+  background-color: rgb(107, 1, 107);
 }
