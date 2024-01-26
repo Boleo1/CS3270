@@ -1,7 +1,7 @@
 <?php
 define('URL_ROOT', 'http://localhost:3000');
 // define('ABS_PATH', $_SERVER['DOCUMENT_ROOT']);
-define('ABS_PATH', 'cs.bemidjistate.edu/vs5942cv/CS3270');
+define('ABS_PATH', __DIR__);
 
 $data = [
   'myName' => 'Anthony',
