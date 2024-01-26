@@ -1,5 +1,5 @@
 <?php
-define('URL_ROOT', 'http://localhost:3000');
+define('URL_ROOT', 'https://cs.bemidjistate.edu/vs5942cv/CS3270');
 // define('ABS_PATH', $_SERVER['DOCUMENT_ROOT']);
 define('ABS_PATH', __DIR__);
 
