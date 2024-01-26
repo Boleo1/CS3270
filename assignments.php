@@ -33,4 +33,5 @@
     </article>
   </main>
 </body>
+<?php include_once('media/views/footer.view.php')?>
 </html>

@@ -43,5 +43,5 @@ include_once ABS_PATH . '/media/views/head.view.php';
     </article>
   </main>
 </body>
-
+<?php include_once('media/views/footer.view.php')?>
 </html>
