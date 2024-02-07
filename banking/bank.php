@@ -4,7 +4,7 @@
     extract($_REQUEST); // This is for grabbing the $_POST, $_GET or $_COOKIE
 
     $data = [
-        'myName' => "Anthony",
+        'myName' => "Ant",
         'pageName' => "Bank | Home",
         [
 
