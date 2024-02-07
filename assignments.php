@@ -31,6 +31,9 @@
       <h2 class="articleH2"><?php  echo $data['assignmentsTable'][0]['assignment2']  ?></h2>
       <p class="articleP"><?php  echo $data['assignmentsTable'][0]['assignment2desc']  ?></p>
     </article>
+    <article class="altArticleBody">
+      <p class="articleP"><a href="banking/index.php/">Click to go to banking</a></p>
+    </article>
   </main>
 </body>
 <?php include_once('media/views/footer.view.php')?>
