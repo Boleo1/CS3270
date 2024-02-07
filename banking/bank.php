@@ -1,17 +1,19 @@
 <?php
     define('PAGE_NAME', 'Bank | Home');
-    define('ABS_PATH', dirname(__FILE__));
+    define('ABS_PATH', "../");
     extract($_REQUEST); // This is for grabbing the $_POST, $_GET or $_COOKIE
+
+    $data = [
+        'myName' => "Anthony",
+        'pageName' => "Bank | Home",
+        [
+
+        ]
+    ];
+
+    include_once(ABS_PATH . '/media/views/bank.head.view.php')
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo PAGE_NAME ?></title>
-</head>
-<body>
     This is the home page.
     <?php
     if (isset($userName)){
@@ -22,6 +24,6 @@
     }
 
     ?>
-    <a href="index.php">Click to go back</a>
 </body>
+<?php include_once(ABS_PATH . '/media/views/bank.footer.view.php') ?>
 </html>
