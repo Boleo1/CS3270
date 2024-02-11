@@ -17,11 +17,11 @@ header {
 .topNav {
     display: flex;
     padding: 10px;
-    border: red solid 3px;
+    /* border: red solid 3px; */
 }
 .topNav ul {
     display: flex;
-    border: green 2px solid;
+    /* border: green 2px solid; */
     list-style: none;
 }
 .topNav a {
@@ -29,11 +29,11 @@ header {
 }
 .navLinks {
     display: flex;
-    border: blue solid 2px;
+    /* border: blue solid 2px; */
     padding: 10px;
 }
 .footerLinks {
     display: flex;
-    border: orange solid 3px;
+    /* border: orange solid 3px; */
     justify-content: space-between;
 }

@@ -7,5 +7,6 @@
     <link rel="stylesheet" href="bankstyle.css">
     <title><?php echo PAGE_NAME ?></title>
 </head>
-<body>
+<body class="container">
+<main class="content">
 <?php include_once('bank.header.view.php') ?>
