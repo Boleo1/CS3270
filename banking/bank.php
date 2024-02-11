@@ -1,28 +1,28 @@
-<?php
+<?php    
+    session_start(); // Use session to keep track of user form inputs.
     define('PAGE_NAME', 'Bank | Home');
     define('ABS_PATH', "../");
-    extract($_REQUEST); // This is for grabbing the $_POST, $_GET or $_COOKIE
 
+
+    $userName = isset($_SESSION['userName']) ? $_SESSION['userName'] : 'Guest'; // checks if its set, if not we print out Guest.
     $data = [
-        'myName' => "Anthony",
+        'myName' => "Ant",
         'pageName' => "Bank | Home",
-        [
-
+        'dataTable' => [
+            [
+                'userName' => $userName, // store the username in the array so it will stay.
+            ]
         ]
     ];
 
     include_once(ABS_PATH . '/media/views/bank.head.view.php')
 ?>
 
-    This is the home page.
-    <?php
+    <h2>This is the home page.</h2>
+    <?php // echo out the username with a welcome message
     if (isset($userName)){
-        echo "Welcome! $userName" . PHP_EOL;
+        echo "Welcome! " . $data['dataTable'][0]['userName'] . PHP_EOL;
     } 
-    if (isset($userPassword)){
-        echo "Password was: $userPassword" . PHP_EOL;
-    }
-
     ?>
 </body>
 <?php include_once(ABS_PATH . '/media/views/bank.footer.view.php') ?>
