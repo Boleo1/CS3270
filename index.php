@@ -42,8 +42,10 @@ include_once ABS_PATH . '/media/views/head.view.php';
       <h3 class="articleH3">Extra Credit / Extras (click on links)</h3>
     <p class ="extracreditLink"><a href="https://cs.bemidjistate.edu/vs5942cv/Hangman/hangman.htm">Hangman game!</a></p>
     <p class ="extracreditLink"><a href="extracredit/index.php">Extra Credit: Simple php form demo</a></p>
-    </article>
+    </article> 
   </main>
+ 
 </body>
+
 <?php include_once('media/views/footer.view.php')?>
 </html>

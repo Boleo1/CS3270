@@ -18,12 +18,14 @@
         'pageName' => "Bank | Home",
     ];
 
-    // This checks for the post submission
+// This checks for the post submission, and assigns the form select names to $variables, $amount is a floating value since
+// it may be a decimal input also.
     if (isset($_POST['transferSubmit'])) {
         $fromAccount = $_POST['fromAccount'];
         $toAccount = $_POST['toAccount'];
         $amount = floatval($_POST['amount']);
-    
+        
+// Conditional checks for if the session account data array is greater or equal, if it is we can do math on it if not insufficient funds.
         if ($_SESSION['accountData'][$fromAccount] >= $amount) {
             $_SESSION['accountData'][$fromAccount] -= $amount;
             $_SESSION['accountData'][$toAccount] += $amount;
@@ -35,9 +37,11 @@
     include_once(ABS_PATH . '/media/views/bank.head.view.php')
 ?>
 <h2>Transfers: </h2>
+<!-- displays the message based on what it may be, if there is nothing input, no output -->
 <?php if (!empty($message)): ?>
     <p><?php echo $message; ?></p>
 <?php endif; ?>
+
 <form action='' method="post">
 <label for="fromAccount">From Account:</label>
     <select name="fromAccount">
